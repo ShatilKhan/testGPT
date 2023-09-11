@@ -1,7 +1,7 @@
 import os
 import openai
 import streamlit as st
-from langchain import DirectoryLoader
+from langchain.document_loaders import DirectoryLoader
 
 # Streamlit settings
 st.set_page_config(page_title='Langchain LLM Chatbot')
