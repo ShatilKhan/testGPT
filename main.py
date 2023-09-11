@@ -17,7 +17,7 @@ if api_key:
 
     # Load custom data using Langchain DirectoryLoader
     loader = DirectoryLoader("data/")
-    data = loader.load()
+    docs = loader.load()
 
     # Chatbot settings
     model = 'gpt-3.5-turbo'
