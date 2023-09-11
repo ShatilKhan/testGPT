@@ -16,7 +16,7 @@ if api_key:
     openai.api_key = api_key
 
     # Load custom data using Langchain DirectoryLoader
-    loader = DirectoryLoader(directory='data')
+    loader = DirectoryLoader("data/")
     data = loader.load()
 
     # Chatbot settings
